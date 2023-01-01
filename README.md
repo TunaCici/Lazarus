@@ -1,8 +1,4 @@
-# c-project-structure
-
-Project description
-
-Project image/gif
+# Basic C Project Structure /w Makefile
 
 ## Installation
 Run `make` to build all source files and compile.
