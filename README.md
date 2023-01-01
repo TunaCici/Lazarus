@@ -1,5 +1,5 @@
 # About
-This repository contains all my workspace templates, configurations, list of extensions and other tools I use on my projects. There are different branches to this repository. Eeach of them corrosponds to differen workspaces. For example; The branch C++_Workspace, contains all the necessary information and stuff about my C++ projects and codes.
+This repository contains all my workspace templates, configurations, list of extensions and other tools I use on my projects. There are different branches to this repository. Each of them corresponds to differen workspaces. For example; The branch C++_Workspace, contains all the necessary information and stuff about my C++ projects and codes.
 
 I use this repository to keep track of my configuration files and project structure templates across different machines. 
 
