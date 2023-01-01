@@ -12,7 +12,11 @@ Current branches and their purposes:
 
 ```
 
-# Current Tools & Programs I Use
+# Current Tools, Programs & Standards I Use
+C Standard == C99 \
+C++ Standard == C++20 \
+Python Version == 3.11 \
+\
 zsh == 5.8.1 \
 vim == 9.0.1 \
 VSCode == 1.74.2
