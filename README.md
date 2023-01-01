@@ -31,7 +31,7 @@ $ source bin/activate
 Now you can run the applicaton by running the command:
 ```bash
 # Run the Python code
-$ python main.py
+$ python src/main.py
 ```
 
 
