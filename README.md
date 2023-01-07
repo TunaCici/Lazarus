@@ -1,5 +1,5 @@
 # About
-This repository contains all my workspace templates, configurations, list of extensions and other tools I use on my projects. There are different branches to this repository. Eeach of them corrosponds to differen workspaces. For example; The branch C++_Workspace, contains all the necessary information and stuff about my C++ projects and codes.
+This repository contains all my workspace templates, configurations, list of extensions and other tools I use on my projects. There are different branches to this repository. Each of them corresponds to differen workspaces. For example; The branch C++_Workspace, contains all the necessary information and stuff about my C++ projects and codes.
 
 I use this repository to keep track of my configuration files and project structure templates across different machines. 
 
@@ -12,7 +12,11 @@ Current branches and their purposes:
 
 ```
 
-# Current Tools & Programs I Use
+# Current Tools, Programs & Standards I Use
+C Standard == C99 \
+C++ Standard == C++20 \
+Python Version == 3.11 \
+\
 zsh == 5.8.1 \
 vim == 9.0.1 \
 VSCode == 1.74.2
