@@ -28,8 +28,8 @@ Live Share by Microsoft == v1.0.5788 \
 SQLite Viewer by Florian Klampfer == v0.1.5 \
 shellman by Remisa == v5.6.0 \
 ShellCheck by Timon Wong == v0.29.2 \
-Markdown Preview Enhanced by Yiyi Wang == v0.6.5 \
-SonarLint by SonarSource == v3.13.0
+SonarLint by SonarSource == v3.13.0 \
+Markdown All in One by Yu Zhang == 3.5.0
 
 ## For C/C++
 C/C++ by Microsoft == v1.13.8 \
