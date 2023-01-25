@@ -1,5 +1,8 @@
 #!/bin/bash
 
+INSTALL_IMAGE_PATH="/path/to/image"
+VM_DISK_PATH="/path/to/vm/disk/qcow2"
+
 args=(
 	# Type & VM Engine
 	-accel hvf
@@ -16,9 +19,9 @@ args=(
 	-drive file=vars-template-pflash.raw,if=pflash,format=raw
 	
 	# Disks
-	-drive if=none,file=ubuntu_server_22_04.qcow2,format=qcow2,id=hd0
-	-device virtio-blk-device,drive=hd0,serial="dummyserial" 
-	-cdrom ubuntu-22.04.1-live-server-arm64.iso
+	-drive if=none,file=${INSTALL_IMAGE_PATH},format=qcow2,id=hd0
+	-device virtio-blk-device,drive=hd0,serial="main_disk" 
+	-cdrom ${VM_DISK_PATH}
 	
 	# Devices
 	-device usb-ehci 
