@@ -1,12 +1,6 @@
-#!/bin/sh
-
-# Customization: zsh-settings
-autoload -Uz compinit
-compinit
-zstyle ':completion:*' menu select
-
 # Customization: prompt
-PS1="%F{blue}%~ %(?.%F{green}.%F{red})%#%f "
+PS1="%F{green}%n%f%F{green}@%f%F{green}%m%f:%F{magenta}%~%f$ "
+export CLICOLOR=1
 
 # Initialization: VSCode
 code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
@@ -27,4 +21,3 @@ alias lttt='exa --tree --level=3' # tree
 
 # Extension: zsh-syntax-highlighting
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
